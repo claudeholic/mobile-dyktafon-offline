@@ -1,0 +1,29 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+.tmp/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Artefakty i klucze
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+signing*.properties
+
+# Pobierane przez scripts/download.sh (nie trzymamy ich w repozytorium)
+app/libs/*.aar
+app/src/main/assets/*.onnx
+models/
+*.onnx
+*.tar.bz2
+
+# Nagrania
+*.wav
